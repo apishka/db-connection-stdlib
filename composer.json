@@ -12,6 +12,8 @@
     "require": {
         "php": ">=7.0",
         "apishka/easy-extend": "^1.2.10"
+        "apishka/db-query-stdlib": "^1.0.0",
+        "apishka/singleton": "^1.0.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^6.2.2",
