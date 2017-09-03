@@ -18,5 +18,5 @@ interface ExecutableInterface
      * @return mixed
      */
 
-    public function execute(QueryAbstract $query, $flags);
+    public function execute(QueryAbstract $query);
 }

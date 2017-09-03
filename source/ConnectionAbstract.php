@@ -8,4 +8,9 @@ namespace Apishka\DbConnection\StdLib;
 
 abstract class ConnectionAbstract implements ExecutableInterface
 {
+    /**
+     * Traits
+     */
+
+    use \Apishka\EasyExtend\Helper\ByClassNameTrait;
 }
